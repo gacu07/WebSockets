@@ -1,5 +1,8 @@
 language: java
 
+before_install:
+cd WebSockets
+
 deploy:
   provider: azure_web_apps
   username: AZURE_WA_USERNAME
